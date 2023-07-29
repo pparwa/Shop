@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Shop</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="d-flex justify-content-center gap-</a>4 border border-2 bg-secondary text-white p-0 m-0 text-center">
+           <h3 class="border-end border-start p-3 m-0"><a href="#">Home</a></h3>
+         <h3 class="border-end p-3 m-0"><a href="#">Call</a></h3> 
+         <h3 class="p-3 "><a href="#">Out</a></h3>
+        </div>
+    </header>
+    <main>
+    <div class="d-flex flex-column gap-3">
+        <h2 class="text-center text-body">Products</h2>
+        <div class="product">
+            <div class="card" style="width: 18rem;grid-area:a; height:200px;">
+                <img src="../image/images (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Ring</h5>
+                  <div class="d-flex justify-content-between">
+                  <p class="card-text">90/000ت</p>
+                  <button class="btn btn-primary add" id="ring">Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;grid-area:b; height:200px;">
+                <img src="../image/images.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Cup</h5>
+                  <div class="d-flex justify-content-between">
+                  <p class="card-text">80/000ت</p>
+                  <button class="btn btn-primary add" id="cup">Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;grid-area:c; height:200px;">
+                <img src="../image/download.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Picture</h5>
+                  <div class="d-flex justify-content-between">
+                  <p class="card-text">120/000ت</p>
+                  <button class="btn btn-primary add" id="pic">Add</button>
+                </div>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem; grid-area:d; height:200px;">
+                <img src="../image/22087-11.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">T-shirt</h5>
+                  <div class="d-flex justify-content-between">
+                  <p class="card-text">250/000ت</p>
+                  <button class="btn btn-primary add" id="shirt">Add</button>
+                </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    </main>
+    <article>
+      <div class="d- flex flex-column gap-3 align-items-center mt-3">
+        <h4 class="text-center text-warning">Your Basket</h4>
+        <table class="table" style="width: 70%; margin:auto;">
+          <thead>
+            <tr class="text-center">
+              <th scope="col">Name</th>
+              <th scope="col">price</th>
+              <th scope="col">Quantity</th>
+            </tr>
+          </thead>
+          <tbody id="buy">
+            
+            </tbody>
+            <tfoot class="text-center">
+              <tr>
+              <td>
+                Total
+              </td>
+              <td>
+               <input type="text" id="sum"> 
+              </td>
+              <td>
+               <button class="btn btn-success">Pay</button>
+              </td>
+
+            </tr>
+            </tfoot>
+            </table>
+      </div>
+    </article>
+
+
+
+
+
+
+
+
+    <script src="../js/app.js"></script>
+    <script src="../css/bootstrap.min.js"></script>
+    <script src="../css/puper.js"></script>
+    <script src="../css/bootstrap.bundle.min.js"></script>
+</body>
+</html>

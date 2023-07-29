@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    color: red;
+}
+h3{
+    cursor: pointer;
+}
+.product{
+    width: 70%;
+    display: grid;
+    grid-template-areas: "a a a b b b"
+    "c c c d d d";
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+button:hover{
+    color: red;
+    background-color: brown;
+}
